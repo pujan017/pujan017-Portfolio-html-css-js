@@ -378,22 +378,28 @@ article .icon{
 }
 
 
-.color-container{
-    border-color: rgb(163,163,163);
-    background: rgb(250,250,250);
-    width:500px;
-    height:500px;
-    overflow:hidden;
+.color-container {
+    border-radius: 20px;
+    border-style: solid; /* Set border style to solid */
+    border-width: 2px; /* Set border width */
+    border-color: rgb(133, 128, 128); /* Set border color to black */
+    background: rgb(250, 250, 250);
+    width: 500px;
+    height: 570px;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-
 }
 
 
+
 .project-img{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
     border-radius:2rem;
-    width:100%;
-    height:100%;
+    width:20px;
+    height:320px;
     flex:1;
     object-fit: cover;
 }
